@@ -19,19 +19,19 @@ func main() {
 		fmt.Println(index, maps)	
 	}
 
-	for maps := range mymap2{
+	for value := range mymap2{
 	
-		fmt.Println(maps)	
+		fmt.Println(value)	
 	}
 
-	for _,maps := range mymap2{
+	for _,value := range mymap2{
 	
-		fmt.Println(maps)	
+		fmt.Println(value)	
 	}
 
-	for index,maps := range mymap2{
+	for key,value := range mymap2{
 		
-		fmt.Println(index, " < " , maps)	
+		fmt.Println(key, " < " , value)	
 	}
 	
 }
